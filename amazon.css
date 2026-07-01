@@ -1,0 +1,269 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+
+}
+.navbar{
+background-color: #131921;
+display: flex;
+color: white;
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+justify-content: space-evenly;
+}
+
+.flex{
+ display: flex;
+}
+.nav-logo img{
+     color: white;
+    height: 50px;
+    width: 100px;
+}
+.underline{
+    border: 1px solid transparent;
+    padding: 10px;
+}
+.underline :hover{
+    border: 1px solid white;
+    
+}
+.para-1{
+    font-size: 12px;
+    color: #cccccc;
+    padding-left: 15px;
+}
+.para-2{
+    font-size: 14px;
+}
+.location-icon{
+    display: flex;
+    align-items: center;
+}
+.search-bar {
+    background-color: #febd69;
+    color: black;
+    height: 35px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.search-select{
+    background-color: #e6e6e6;
+    text-align: center;
+    width: 50px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:  4px ;
+    border: none;
+}
+.search-input{
+    width: 100%
+    
+}
+.search-icon{
+    padding: 10px 10px 10px 10px;
+    
+    
+}
+.para3{
+    font-size: 13px;
+}
+.sign-in{
+    font-weight: bold;
+    gap: 40px;
+}
+.nav-panel{
+    background-color: #232f3e;
+    color: white;
+    height: 39px;
+    align-items: center;
+    gap: 20px;
+}
+.bar-icon{
+    padding-left: 5px;
+}
+   
+
+.panel-options{
+   
+    justify-content: space-betwee;
+    align-items: cente;
+}
+.panel-options p{
+    display: inline;
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+ a{
+    text-align: rigt;
+}
+ .panels-head a{
+     color: white;
+     padding-left: 285px;
+ }
+.hero-section{
+    background-image: url("https://m.media-amazon.com/images/I/81KkrQWEHIL._SX3000_.jpg");
+    height: 800px;
+    background-size: cover;
+    height: 300px;
+}
+.paragraph p{
+    background-color: white;
+    align-items: center;
+    height: 40px;
+    justify-content: center;
+    display: flex ;
+    font-size: .85rem;
+    
+}
+.paragraph a{
+    color: #007185;
+}
+.paragraph{
+    padding-top: 250px;
+    padding-inline: 50px;
+}
+
+.shoping-section{
+    padding-top: 20px;
+    
+}
+
+.shoping-cards{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+}
+.container1{
+    margin-inline: ato;
+    padding-inline: 22px;
+    padding-top: 30px;
+    background-color: transparent;
+    width: 300px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 1px 4px 6px rgba(0,0,0,0.7);
+}
+
+.box1{
+    padding-top: 20px;
+    
+    width: 100px;
+}
+.box1 img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+}
+.box1 p{
+    font-size: 12px;
+}
+.padding{
+    padding-top: 35px;
+    padding-right: 65px;
+}
+.ruppees{
+    font-size: 20px;
+}
+
+.container{
+    box-shadow: 5px,5px,5px rgb(0, 0, 0,0.7);
+    ;
+    
+}
+
+.upper{
+    padding-top: 35px;
+    box-shadow: 5px,5px,5px rgb(0, 0, 0,0.7);
+    padding-bottom: 200px;
+    height: 20px;
+}
+
+.todaydeals-product-img{
+    min-width: 220px;
+}
+.todaydeals-product-img img{
+    width: 100%;
+}
+.todaydeals-product-list{
+    position: relative;
+    
+}
+.btn {
+    justify-content: space-between;
+    width:100%;
+    align-items: center;
+    height: 50%;
+    position: absolute;
+    
+}
+/* footer */
+ 
+.footer-heading-section {
+    margin-top: 35px;
+  background-color: #37475a;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.85rem;
+  color: white;
+}
+.footer-panel{
+    background-color: #232f3e;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    ;
+    
+}
+ul{
+    margin-top: 35px;
+}
+ul p{
+    font-weight: bold;
+}
+ ul a{
+    display: block;
+    color: #dddddd;
+    font-size: 15px;
+    padding-top: 10px;
+    
+}
+ul a:hover {
+    text-decoration: underline;
+}
+.foot-panel2{
+    
+    background-color: #232f3e;
+    color: white;
+    border-top: 0.5px solid white;
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.logo img{
+    height: 40px;
+
+}
+
+
+.btn-0 a{
+    color:#dddddd ;
+    border: 0.3px solid #dddddd;
+    padding-inline: 30px;
+    padding-block: 5px;
+    
+}
+
+}
